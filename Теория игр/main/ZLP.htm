@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<title>Матричные игры</title>
+<base target="main">
+<style type="text/css">
+<!--
+.style2 {color: #3E4062; font-family: "Times New Roman", Times, serif;}
+.style6 {
+	color: #3E4062;
+	font-weight: bold;
+}
+.стиль1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	color: #3E4062;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#2873C2" topmargin="3" leftmargin="2" rightmargin="2" bottommargin="1" link="#163F6B" vlink="#163F6B" alink="#163F6B">
+
+<p align="center" style="margin-bottom: 3px"><b>
+<font color="#FFFFFF" face="Times New Roman">Сведение решения матричной игры к задаче линейного программирования </font></b></p>
+<table border="1" width="100%" height=95% background=../Pictures/fon2.gif bordercolordark="#2873C2" bgcolor="#FEFEFE">
+	<tr>
+		<td vAlign=top>                
+          <p align="justify" class="style2"><span class="style2"><font color="#163F6B" face="Tahoma" size="5"></font><br>&nbsp&nbsp&nbsp&nbsp&nbsp Рассмотрим игру m x n с m стратегиями A1 ... Am игрока A и n стратегиями B1 ... Bn игрока B. Задана матрица игры <img src="Priroda/1.gif" width="29" height="23" align="absmiddle">
+                                 
+<br>&nbsp&nbsp&nbsp&nbsp&nbspТребуется найти решение игры, т.е. две оптимальные смешанные стратегии игроков A и B: <img src="Priroda/2.gif" width="17" height="24" align="absmiddle">
+где <img src="Priroda/3.gif" width="17" height="24" align="absmiddle"> - вероятности применения чистых стратегий.
+<br>&nbsp&nbsp&nbsp&nbsp&nbspОптимальная стратегия SA должна обеспечить выигрыш, не меньший &#947, при любом поведении противника, и выигрыш, равный &#947, при его оптимальном поведении, т.е. при стратегии SB . Т.е. для любой чистой стратегии игрока B имеем  <img src="Priroda/4.gif" width="46" height="24" align="absmiddle">, при этом естественно желание игрока A максимизировать свой выигрыш. Таким образом, для игрока A имеем задачу:
+<br>&nbsp&nbsp&nbsp&nbsp&nbspНайти max &#947
+при условиях <img src="Priroda/5.gif" width="45" height="39" align="absmiddle">
+                               
+<br>&nbsp&nbsp&nbsp&nbsp&nbspДля игрока B задача приобретает вид:
+<br>&nbsp&nbsp&nbsp&nbsp&nbspНайти  min &#947 при условиях <img src="Priroda/6.gif" width="147" height="42" align="absmiddle">
+                                   
+<br>&nbsp&nbsp&nbsp&nbsp&nbspВ силу того, что игрок B стремится минимизировать проигрыш, при использовании противником любой чистой стратегии, B проиграет меньше, чем &#947, и &#947, если A применит свою оптимальную стратегию. Здесь &#947 - цена игры.
+<br>&nbsp&nbsp&nbsp&nbsp&nbspПолагаем, что &#947>0. Если это не так, то этого можно добиться прибавлением к элементам платёжной матрицы одного и того же положительного числа. Разделив каждое из соотношений  на &#947 и положив <img src="Priroda/7.gif" width="62" height="37" align="absmiddle">
+ 
+получим для второго  и для первого игроков: <img src="Priroda/8.gif" width="44" height="40" align="absmiddle">
+
+<br>&nbsp&nbsp&nbsp&nbsp&nbspПоскольку второй игрок заинтересован в уменьшении, а первый в увеличении цены игры &#947, то переходим к следующей паре двойственных задач.
+Исходная задача (для второго игрока): найти значения y1, y2,...,yn , такие что <img src="Priroda/9.gif" width="54" height="38" align="absmiddle">
+ 
+                                                         
+<br>&nbsp&nbsp&nbsp&nbsp&nbspДвойственная задача (для первого игрока):.найти значения x1, x2,..., xm , такие что <img src="Priroda/10.gif" width="67" height="37" align="absmiddle">
+ 
+
+<br>&nbsp&nbsp&nbsp&nbsp&nbspТак как каждая игра имеет решение, то оптимальные решения пары двойственных задач существуют и  <img src="Priroda/11.gif" width="25" height="25" align="absmiddle">	 .
+<br>&nbsp&nbsp&nbsp&nbsp&nbspЕсли одна из задач этой игры решена симплекс-методом, то оптимальное решение другой содержится в последней симплекс таблице исходной задачи.
+<br>&nbsp&nbsp&nbsp&nbsp&nbspОптимальные стратегии матричной игры рассчитываются по формулам <img src="Priroda/12.gif" width="200" height="62" align="absmiddle">
+                                        
+</span></p>
+      </td>
+ 		
+	</tr>
+</table>
+
+</body>
+
+</html>

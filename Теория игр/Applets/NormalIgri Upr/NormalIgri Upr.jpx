@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--JBuilder XML Project-->
+<project>
+  <property category="javaFormatting" name="packageThreshold" value="0"/>
+  <property category="runtime.0" name="RunnableType" value="com.borland.jbuilder.runtime.AppletRunner"/>
+  <property category="runtime.0" name="applet.appletviewer" value="1"/>
+  <property category="runtime.0" name="applet.class" value="funcallarc.AppFuncAllArc"/>
+  <property category="runtime.0" name="applet.html" value="classes/AppFuncAllArc.html"/>
+  <property category="runtime.0" name="appserver.ejbJarsSaved" value="1"/>
+  <property category="runtime.0" name="appserver.parameters" value="-jts -jns -jss -jdb"/>
+  <property category="runtime.0" name="appserver.servername" value="ejbcontainer"/>
+  <property category="runtime.0" name="appserver.vmparameters" value="-Dvbroker.agent.port=14000 -Djava.library.path=/Borland/AppServer/lib;/Borland/AppServer/bin"/>
+  <property category="runtime.0" name="jsprunner.launchuri" value="/"/>
+  <property category="serverservices" name="disabled.services" value="jdatastore"/>
+  <property category="sys" name="BackupPath" value="bak"/>
+  <property category="sys" name="CheckStable" value="1"/>
+  <property category="sys" name="Company" value=""/>
+  <property category="sys" name="Copyright" value="Copyright (c) 2005"/>
+  <property category="sys" name="DefaultPath" value="src"/>
+  <property category="sys" name="Description" value=""/>
+  <property category="sys" name="DocPath" value="doc"/>
+  <property category="sys" name="ExcludeClassEnabled" value="0"/>
+  <property category="sys" name="IncludeTestPath" value="1"/>
+  <property category="sys" name="JDK" value="java version 1.4.2_01-b06"/>
+  <property category="sys" name="LastTag" value="0"/>
+  <property category="sys" name="Libraries" value=""/>
+  <property category="sys" name="MakeStable" value="0"/>
+  <property category="sys" name="OutPath" value="classes"/>
+  <property category="sys" name="SourcePath" value="src;test"/>
+  <property category="sys" name="TestPath" value="test"/>
+  <property category="sys" name="Title" value=""/>
+  <property category="sys" name="Version" value="1.0"/>
+  <property category="sys" name="WorkingDirectory" value="."/>
+  <property category="sys" name="uidesign.size.duel.AppDuel" value="690,509"/>
+  <file path="classes/AppDuel.html"/>
+  <file path="src/duel/AppDuel.java"/>
+  <file path="FuncAllArc.html"/>
+  <file path="src/duel/OptimizationBasic.java"/>
+  <file path="src/duel/Stringer.java"/>
+</project>

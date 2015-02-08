@@ -1,0 +1,432 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv="Content-Language" content="ru">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link rel="File-List" href="soderganie_42.files/filelist.xml">
+
+<title>Содержание</title>
+<base target="main">
+<!--[if !mso]>
+<style>
+v\:*         { behavior: url(#default#VML) }
+o\:*         { behavior: url(#default#VML) }
+.shape       { behavior: url(#default#VML) }
+</style>
+<![endif]--><!--[if gte mso 9]>
+<xml><o:shapedefaults v:ext="edit" spidmax="1027"/>
+</xml><![endif]-->
+</head>
+
+<body bgcolor="#AACCE6" topmargin="3" leftmargin="2" rightmargin="2" bottommargin="1" link="#163F6B" vlink="#163F6B" alink="#163F6B">
+
+<p align="center" style="margin-bottom: 3px"><b>
+<font face="Verdana" color="#163F6B">Динамическая обработка игры</font></b></p>
+<div align="center">
+<table background=pictures/fon2.gif cellPadding=0 cellSpacing=0 width="99%"
+	border="1" width="100%" height=90% bordercolordark="#5E9ECE" bgcolor="#FEFEFE">
+		<tr>	
+		  <td vAlign=top>
+                                  
+                                &nbsp;&nbsp; В дальнейшем мы будем полагать, что
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 3.0pt"><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1069" type="#_x0000_t75" style='width:48pt;
+ height:15.75pt'>
+ <v:imagedata src="soderganie_42.files/image001.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=64 height=21
+src="soderganie_42.files/image002.gif" v:shapes="_x0000_s1069"><![endif]></span></span> 
+								и
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 3.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1068" type="#_x0000_t75" style='width:63pt;height:15.75pt'>
+ <v:imagedata src="soderganie_42.files/image003.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=84 height=21
+src="soderganie_42.files/image004.gif" v:shapes="_x0000_s1068"><![endif]></span></span>&nbsp;&nbsp;&nbsp; 
+								для всех
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1067" type="#_x0000_t75" style='width:32.25pt;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image005.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=43 height=23
+src="soderganie_42.files/image006.gif" v:shapes="_x0000_s1067"><![endif]></span></span> 
+								и
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1066" type="#_x0000_t75" style='width:33.75pt;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image007.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=45 height=23
+src="soderganie_42.files/image008.gif" v:shapes="_x0000_s1066"><![endif]></span></span>.<p>&nbsp;&nbsp; 
+								После этих допущений определим область
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1065" type="#_x0000_t75" style='width:150.75pt;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image009.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=201 height=23
+src="soderganie_42.files/image010.gif" v:shapes="_x0000_s1065"><![endif]></span></span> 
+								, где&nbsp; </p>
+								<table border="0" width="100%" id="table1">
+									<tr>
+										<td width="326">
+										<span style="font-size: 12.0pt; font-family: Times New Roman">
+										<span style="position: relative; top: 12.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1064" type="#_x0000_t75" style='width:105.75pt;height:33pt'>
+ <v:imagedata src="soderganie_42.files/image011.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=141 height=44
+src="soderganie_42.files/image012.gif" v:shapes="_x0000_s1064"><![endif]>&nbsp;&nbsp;&nbsp; 
+										для </span>
+										<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1063" type="#_x0000_t75" style='width:49.5pt;height:15pt'>
+ <v:imagedata src="soderganie_42.files/image013.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=66 height=20
+src="soderganie_42.files/image014.gif" v:shapes="_x0000_s1063"><![endif]></span></span></td>
+										<td>
+										<span style="font-size: 12.0pt; font-family: Times New Roman">
+										<span style="position: relative; top: 12.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1062" type="#_x0000_t75" style='width:111.75pt;height:35.25pt'>
+ <v:imagedata src="soderganie_42.files/image015.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=149 height=47
+src="soderganie_42.files/image016.gif" v:shapes="_x0000_s1062"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+										для&nbsp;&nbsp; </span>
+										<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1061" type="#_x0000_t75" style='width:48.75pt;height:15.75pt'>
+ <v:imagedata src="soderganie_42.files/image017.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=65 height=21
+src="soderganie_42.files/image018.gif" v:shapes="_x0000_s1061"><![endif]></span><!--[if gte mso 9]><![endif]--></span></td>
+									</tr>
+								</table>
+								<p>&nbsp;&nbsp; Эта область непрерывна и по 
+								теореме Врауера о фиксированной точке, область 
+								содержит в себе фиксированную точку. Пусть 
+									<span style="font-size:12.0pt; font-family:Times New Roman"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1060" type="#_x0000_t75" style='width:1in;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image019.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=96 height=23
+src="soderganie_42.files/image020.gif" v:shapes="_x0000_s1060"><![endif]></span> 
+								- фиксированная точка <span lang="en-us">f.
+								</span>Из этого следует
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 7.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1059" type="#_x0000_t75" style='width:180pt;height:20.25pt'>
+ <v:imagedata src="soderganie_42.files/image021.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=240 height=27
+src="soderganie_42.files/image022.gif" v:shapes="_x0000_s1059"><![endif]></span></span> 
+								и
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 7.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1058" type="#_x0000_t75" style='width:182.25pt;height:20.25pt'>
+ <v:imagedata src="soderganie_42.files/image023.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=243 height=27
+src="soderganie_42.files/image024.gif" v:shapes="_x0000_s1058"><![endif]></span></span>&nbsp; 
+								. </p>
+								<p>&nbsp;&nbsp; И наоборот, если эти два условия 
+								выполняются, то 
+									<span style="font-size:12.0pt; font-family:Times New Roman"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1057" type="#_x0000_t75" style='width:1in;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image019.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=96 height=23
+src="soderganie_42.files/image020.gif" v:shapes="_x0000_s1057"><![endif]></span> 
+								-&nbsp; фиксированная точка <span lang="en-us">
+								f. </span>&nbsp;</p>
+								<p>&nbsp;&nbsp; С теоремы 1 предыдущей лекции 
+								эти два условия были необходимыми для того, 
+								чтобы&nbsp; пара
+								<img border="0" src="soderg2.gif"> была 
+								равновесием по Нэшу. Из этого следует, что пара <!--[if gte mso 9]>
+								<![endif]-->
+								<img border="0" src="soderg2.gif" width="32" height="21">- 
+								фиксированная точка <span lang="en-us">f</span>, 
+								если пара
+								<img border="0" src="soderg2.gif" width="36" height="21"> 
+								- равновесие по Нэшу.</p>
+								<p>&nbsp;&nbsp; Наоборот, мы получаем следующую 
+								теорему.</p>
+								<p>&nbsp; <b>&nbsp;Теорема 1: </b>Если 
+									<span style="font-size:12.0pt; font-family:Times New Roman"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1056" type="#_x0000_t75" style='width:1in;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image019.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=96 height=23
+src="soderganie_42.files/image020.gif" v:shapes="_x0000_s1056"><![endif]></span>- 
+								фиксированная точка <span lang="en-us">f</span>&nbsp; 
+								с
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1055" type="#_x0000_t75" style='width:80.25pt;height:15.75pt'>
+ <v:imagedata src="soderganie_42.files/image025.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=107 height=21
+src="soderganie_42.files/image026.gif" v:shapes="_x0000_s1055"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp; 
+								и </span>
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1054" type="#_x0000_t75" style='width:75.75pt;height:15.75pt'>
+ <v:imagedata src="soderganie_42.files/image027.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=101 height=21
+src="soderganie_42.files/image028.gif" v:shapes="_x0000_s1054"><![endif]></span><span style="position: relative; top: 5.0pt">
+								</span></span>,&nbsp; тогда пара
+								<img border="0" src="soderg2.gif">- равновесие 
+								по Нэшу.</p>
+								<p>&nbsp;&nbsp; <b>Теорема 2: </b>Если пара 
+									<span style="font-size:12.0pt; font-family:Times New Roman"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1053" type="#_x0000_t75" style='width:1in;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image019.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=96 height=23
+src="soderganie_42.files/image020.gif" v:shapes="_x0000_s1053"><![endif]></span>- 
+								приближенная фиксированная точка
+								<span lang="en-us">f</span>, то есть 
+								фиксированная точка с некоторым приближением, то 
+								пара <img border="0" src="soderg2.gif">- 
+								равновесие по Нэшу.</p>
+								<p>&nbsp;&nbsp; Обратимся к равновесию по Нэшу в 
+								чистых стратегиях. Начиная с теоремы 2 
+								предыдущей лекции оно эволюционно-устойчиво.</p>
+								<p>&nbsp;&nbsp; <b>Теорема 3:</b> Пусть
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1052" type="#_x0000_t75" style='width:81pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image029.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=108 height=24
+src="soderganie_42.files/image030.gif" v:shapes="_x0000_s1052"><![endif]></span></span> 
+								- равновесие по Нэшу такое, что существует 
+								относительно открытое подмножество
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1051" type="#_x0000_t75" style='width:36.75pt;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image031.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=49 height=23
+src="soderganie_42.files/image032.gif" v:shapes="_x0000_s1051"><![endif]></span></span> 
+								с
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1050" type="#_x0000_t75" style='width:36pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image033.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=48 height=24
+src="soderganie_42.files/image034.gif" v:shapes="_x0000_s1050"><![endif]></span></span> 
+								и&nbsp; относительно открытое&nbsp; подмножество
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1049" type="#_x0000_t75" style='width:36.75pt;height:17.25pt'>
+ <v:imagedata src="soderganie_42.files/image035.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=49 height=23
+src="soderganie_42.files/image036.gif" v:shapes="_x0000_s1049"><![endif]></span></span> 
+								с
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1048" type="#_x0000_t75" style='width:33pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image037.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=44 height=24
+src="soderganie_42.files/image038.gif" v:shapes="_x0000_s1048"><![endif]>&nbsp;
+								</span></span>такое, что
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1047" type="#_x0000_t75" style='width:71.25pt;height:18.75pt'>
+ <v:imagedata src="soderganie_42.files/image039.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=95 height=25
+src="soderganie_42.files/image040.gif" v:shapes="_x0000_s1047"><![endif]></span></span>&nbsp;&nbsp;&nbsp; 
+								и&nbsp;
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1046" type="#_x0000_t75" style='width:71.25pt;height:18.75pt'>
+ <v:imagedata src="soderganie_42.files/image041.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=95 height=25
+src="soderganie_42.files/image042.gif" v:shapes="_x0000_s1046"><![endif]></span></span>&nbsp; 
+								для всех
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1045" type="#_x0000_t75" style='width:66.75pt;height:15.75pt'>
+ <v:imagedata src="soderganie_42.files/image043.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=89 height=21
+src="soderganie_42.files/image044.gif" v:shapes="_x0000_s1045"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								с </span>
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1044" type="#_x0000_t75" style='width:32.25pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image045.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=43 height=24
+src="soderganie_42.files/image046.gif" v:shapes="_x0000_s1044"><![endif]></span><span style="position: relative; top: 5.0pt"> 
+								и </span>
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1043" type="#_x0000_t75" style='width:30pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image047.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=40 height=24
+src="soderganie_42.files/image048.gif" v:shapes="_x0000_s1043"><![endif]></span><span style="position: relative; top: 5.0pt">&nbsp;
+								</span></span>.</p>
+								<p>&nbsp;&nbsp; Тогда
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1042" type="#_x0000_t75" style='width:36pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image049.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=48 height=24
+src="soderganie_42.files/image050.gif" v:shapes="_x0000_s1042"><![endif]></span></span> 
+								- асимптотически устойчивая фиксированная точка
+								<span lang="en-us">f.</span></p>
+								<p>&nbsp;&nbsp; В добавлении можем сделать вывод 
+								о существовании относительно открытого 
+								подмножества<span style="font-size: 12.0pt; font-family: Times New Roman"><span style="position: relative; top: 3.0pt"> <!--[if gte vml 1]><v:shape
+ id="_x0000_s1041" type="#_x0000_t75" style='width:54pt;height:14.25pt'>
+ <v:imagedata src="soderganie_42.files/image051.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=72 height=19
+src="soderganie_42.files/image052.gif" v:shapes="_x0000_s1041"><![endif]></span></span> 
+								с
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1040" type="#_x0000_t75" style='width:36pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image049.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=48 height=24
+src="soderganie_42.files/image050.gif" v:shapes="_x0000_s1040"><![endif]></span></span> 
+								такого, что
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1039" type="#_x0000_t75" style='width:57pt;height:15.75pt'>
+ <v:imagedata src="soderganie_42.files/image053.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=76 height=21
+src="soderganie_42.files/image054.gif" v:shapes="_x0000_s1039"><![endif]></span></span> 
+								и
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 10.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1038" type="#_x0000_t75" style='width:159.75pt;height:23.25pt'>
+ <v:imagedata src="soderganie_42.files/image055.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=213 height=31
+src="soderganie_42.files/image056.gif" v:shapes="_x0000_s1038"><![endif]></span></span> 
+								.</p>
+								<p>&nbsp;&nbsp; Выберем произвольную пару
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 5.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1037" type="#_x0000_t75" style='width:62.25pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image057.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=83 height=24
+src="soderganie_42.files/image058.gif" v:shapes="_x0000_s1037"><![endif]></span></span> 
+								и определим последовательность
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 7.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1036" type="#_x0000_t75" style='width:60pt;height:24pt'>
+ <v:imagedata src="soderganie_42.files/image059.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=80 height=32
+src="soderganie_42.files/image060.gif" v:shapes="_x0000_s1036"><![endif]></span></span> 
+								подмножества <span lang="en-us">W </span>через
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1035" type="#_x0000_t75" style='width:195pt;height:18.75pt'>
+ <v:imagedata src="soderganie_42.files/image061.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=260 height=25
+src="soderganie_42.files/image062.gif" v:shapes="_x0000_s1035"><![endif]></span></span>.</p>
+								<p><!--[if gte vml 1]><v:line
+ id="_x0000_s1072" style='position:absolute;left:0;text-align:left;top:0;
+ flip:y;z-index:1' from="672pt,666.75pt" to="681.75pt,678.75pt" coordsize="21600,21600">
+ <v:stroke endarrow="block"/>
+</v:line><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:895px;top:884px;width:20px;height:22px'><img width=20
+height=22 src="soderganie_42.files/image063.gif" v:shapes="_x0000_s1072"></span><![endif]><!--[if gte vml 1]><v:line
+ id="_x0000_s1071" style='position:absolute;left:0;text-align:left;top:0;
+ flip:y;z-index:1' from="575.25pt,668.25pt" to="587.25pt,681pt" coordsize="21600,21600">
+ <v:stroke endarrow="block"/>
+</v:line><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:766px;top:886px;width:22px;height:23px'><img width=22
+height=23 src="soderganie_42.files/image064.gif" v:shapes="_x0000_s1071"></span><![endif]>&nbsp;&nbsp; Мы имеем <span lang="en-us">&nbsp;</span>для 
+								всех
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1034" type="#_x0000_t75" style='width:33pt;height:18pt'>
+ <v:imagedata src="soderganie_42.files/image065.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=44 height=24
+src="soderganie_42.files/image066.gif" v:shapes="_x0000_s1034"><![endif]>&nbsp;
+								</span>
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1033" type="#_x0000_t75" style='width:140.25pt;height:18.75pt'>
+ <v:imagedata src="soderganie_42.files/image067.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=187 height=25
+src="soderganie_42.files/image068.gif" v:shapes="_x0000_s1033"><![endif]></span><span style="position: relative; top: 6.0pt">&nbsp;&nbsp;
+								</span></span>и
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1032" type="#_x0000_t75" style='width:137.25pt;height:18.75pt'>
+ <v:imagedata src="soderganie_42.files/image069.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=183 height=25
+src="soderganie_42.files/image070.gif" v:shapes="_x0000_s1032"><![endif]></span></span>. 
+								Получим
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1031" type="#_x0000_t75" style='width:57.75pt;height:18.75pt'>
+ <v:imagedata src="soderganie_42.files/image071.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=77 height=25
+src="soderganie_42.files/image072.gif" v:shapes="_x0000_s1031"><![endif]></span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								1 и&nbsp;
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 6.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1030" type="#_x0000_t75" style='width:56.25pt;height:18.75pt'>
+ <v:imagedata src="soderganie_42.files/image073.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=75 height=25
+src="soderganie_42.files/image074.gif" v:shapes="_x0000_s1030"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp; для </span>
+								<span style="position: relative; top: 3.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1029" type="#_x0000_t75" style='width:32.25pt;height:12.75pt'>
+ <v:imagedata src="soderganie_42.files/image075.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=43 height=17
+src="soderganie_42.files/image076.gif" v:shapes="_x0000_s1029"><![endif]></span></span>.</p>
+								<p><!--[if gte vml 1]><v:line
+ id="_x0000_s1076" style='position:absolute;left:0;text-align:left;top:0;
+ z-index:1' from="175.5pt,721.5pt" to="183pt,738.75pt" coordsize="21600,21600">
+ <v:stroke endarrow="block"/>
+</v:line><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:233px;top:961px;width:17px;height:28px'><img width=17
+height=28 src="soderganie_42.files/image077.gif" v:shapes="_x0000_s1076"></span><![endif]><!--[if gte vml 1]><v:line
+ id="_x0000_s1074" style='position:absolute;left:0;text-align:left;top:0;
+ z-index:1' from="294pt,726pt" to="303pt,742.5pt" coordsize="21600,21600">
+ <v:stroke endarrow="block"/>
+</v:line><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:1;left:391px;top:967px;width:19px;height:27px'><img width=19
+height=27 src="soderganie_42.files/image078.gif" v:shapes="_x0000_s1074"></span><![endif]>&nbsp;&nbsp; Следовательно,
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 14.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1075" type="#_x0000_t75" style='width:75pt;height:27pt'>
+ <v:imagedata src="soderganie_42.files/image079.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=100 height=36
+src="soderganie_42.files/image080.gif" v:shapes="_x0000_s1075"><![endif]>&nbsp;&nbsp;&nbsp; 
+								0</span></span> 
+								и&nbsp;
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 15.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1073" type="#_x0000_t75" style='width:77.25pt;height:27.75pt'>
+ <v:imagedata src="soderganie_42.files/image081.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=103 height=37
+src="soderganie_42.files/image082.gif" v:shapes="_x0000_s1073"><![endif]>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+								0&nbsp;&nbsp;&nbsp; </span><span>для </span>
+								<span style="position: relative; top: 3.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1026" type="#_x0000_t75" style='width:32.25pt;height:12.75pt'>
+ <v:imagedata src="soderganie_42.files/image075.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=43 height=17
+src="soderganie_42.files/image076.gif" v:shapes="_x0000_s1026"><![endif]></span></span> 
+								.</p>
+								<p>&nbsp; В результате мы имеем
+								<span style="font-size: 12.0pt; font-family: Times New Roman">
+								<span style="position: relative; top: 10.0pt"><!--[if gte vml 1]><v:shape
+ id="_x0000_s1025" type="#_x0000_t75" style='width:116.25pt;height:23.25pt'>
+ <v:imagedata src="soderganie_42.files/image083.wmz" o:title=""/>
+</v:shape><![endif]--><![if !vml]><img border=0 width=155 height=31
+src="soderganie_42.files/image084.gif" v:shapes="_x0000_s1025"><![endif]></span></span>.</p>
+								<p>&nbsp;</td>
+			
+ 		
+	</tr>
+</table>
+
+</div>
+
+</body>
+
+</html>

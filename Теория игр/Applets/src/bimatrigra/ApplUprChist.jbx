@@ -1,0 +1,33 @@
+[PropertyInfo]
+appletInfo,String,false,false, , ,true,<default>
+border1,Border,false,false, , ,false,<default>
+buttonGroup1,ButtonGroup,false,false, , ,false,<default>
+isStandalone,boolean,false,false, , ,false,<default>
+jButton1,JButton,false,false, , ,false,<default>
+jButton2,JButton,false,false, , ,false,<default>
+jLabel1,JLabel,false,false, , ,false,<default>
+jLabel2,JLabel,false,false, , ,false,<default>
+jLabel3,JLabel,false,false, , ,false,<default>
+jLabel4,JLabel,false,false, , ,false,<default>
+jLabel5,JLabel,false,false, , ,false,<default>
+jLabel6,JLabel,false,false, , ,false,<default>
+jLabel7,JLabel,false,false, , ,false,<default>
+jPanel1,Panel_Z,false,false, , ,false,<default>
+jPanel2,Panel_M,false,false, , ,false,<default>
+jPanel3,Panel_O,false,false, , ,false,<default>
+jPanel4,Panel_F,false,false, , ,false,<default>
+jPanel5,Panel_R,false,false, , ,false,<default>
+jRadioButton1,JRadioButton,false,false, , ,false,<default>
+jRadioButton2,JRadioButton,false,false, , ,false,<default>
+jRadioButton3,JRadioButton,false,false, , ,false,<default>
+jRadioButton4,JRadioButton,false,false, , ,false,<default>
+kolmist_under,int,false,false, , ,false,<default>
+Mist_under,int[],false,false, , ,false,<default>
+parameterInfo,String[][],false,false, , ,true,<default>
+shag,int,false,false, , ,false,<default>
+variant,int,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

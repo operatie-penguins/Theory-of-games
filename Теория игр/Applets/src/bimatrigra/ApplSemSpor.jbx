@@ -1,0 +1,33 @@
+[PropertyInfo]
+a,int,false,false, , ,false,<default>
+a1,int,false,false, , ,false,<default>
+a2,int,false,false, , ,false,<default>
+appletInfo,String,false,false, , ,true,<default>
+b,int,false,false, , ,false,<default>
+b1,int,false,false, , ,false,<default>
+b2,int,false,false, , ,false,<default>
+border1,Border,false,false, , ,false,<default>
+isStandalone,boolean,false,false, , ,false,<default>
+jButton1,JButton,false,false, , ,false,<default>
+jButton2,JButton,false,false, , ,false,<default>
+jButton3,JButton,false,false, , ,false,<default>
+jLabel1,JLabel,false,false, , ,false,<default>
+jLabel2,JLabel,false,false, , ,false,<default>
+jLabel3,JLabel,false,false, , ,false,<default>
+jLabel4,JLabel,false,false, , ,false,<default>
+jLabel5,JLabel,false,false, , ,false,<default>
+jPanel1,Panel_M,false,false, , ,false,<default>
+jPanel2,Panel_R,false,false, , ,false,<default>
+jScrollBar1,JScrollBar,false,false, , ,false,<default>
+jScrollBar2,JScrollBar,false,false, , ,false,<default>
+param_a,float,false,false, , ,false,<default>
+param_b,float,false,false, , ,false,<default>
+parameterInfo,String[][],false,false, , ,true,<default>
+shag,int,false,false, , ,false,<default>
+viigr_g,float,false,false, , ,false,<default>
+viigr_m,float,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

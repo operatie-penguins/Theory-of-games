@@ -1,0 +1,45 @@
+[PropertyInfo]
+a,JLabel,false,false, , ,false,<default>
+b,JLabel,false,false, , ,false,<default>
+button,JButton,false,false, , ,false,<default>
+button1,JButton,false,false, , ,false,<default>
+button2,JButton,false,false, , ,false,<default>
+color1,Color,false,false, , ,false,<default>
+color2,Color,false,false, , ,false,<default>
+ColorText,Color,false,false, , ,false,<default>
+drawpanel,Panel_paint,false,false, , ,false,<default>
+drawpanel2,Panel_paint2,false,false, , ,false,<default>
+drawpanel3,Panel_paint3,false,false, , ,false,<default>
+drawpanel4,Panel_paint4,false,false, , ,false,<default>
+ds,int,false,false, , ,false,<default>
+f1,int,false,false, , ,false,<default>
+f2,int,false,false, , ,false,<default>
+f3,int,false,false, , ,false,<default>
+f4,int,false,false, , ,false,<default>
+FontText,Font,false,false, , ,false,<default>
+label_a,JLabel,false,false, , ,false,<default>
+label_b,JLabel,false,false, , ,false,<default>
+label_gi,JLabel,false,false, , ,false,<default>
+label_o,JLabel,false,false, , ,false,<default>
+label_r,JLabel,false,false, , ,false,<default>
+label_tit,JLabel,false,false, , ,false,<default>
+label_title,JLabel,false,false, , ,false,<default>
+label_uz,JLabel,false,false, , ,false,<default>
+mass,int[],false,false, , ,false,<default>
+mass1,int[],false,false, , ,false,<default>
+pr,int,false,false, , ,false,<default>
+st,int,false,false, , ,false,<default>
+step,int,false,false, , ,false,<default>
+za,int,false,false, , ,false,<default>
+za2,int,false,false, , ,false,<default>
+za3,int,false,false, , ,false,<default>
+za4,int,false,false, , ,false,<default>
+zb,int,false,false, , ,false,<default>
+zb2,int,false,false, , ,false,<default>
+zb3,int,false,false, , ,false,<default>
+zb4,int,false,false, , ,false,<default>
+[IconNames]
+
+
+
+
